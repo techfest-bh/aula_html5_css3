@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+    <head> <!--Esta tag contem informações meta, o titulo da página, os estilos e etc-->
+        <meta charset="utf-8"> 
+        <title>Minha Página</title> <!--é o titulo da página que aparece no browser-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Esta tag Link, serve para referenciar 
+        ou lincar o arquivo CSS á minha pagina html, eu tenho que "chamar" o arquivo css para minha 
+        página html-->
+    </head>
+    <body> <!-- este é o corpo do site, todo os elementos ficarão dentro dele-->
+        <nav> <!--Esta tag é para criar seções ou páginas com link-->
+        <p>Minha primeira página</p> <!-- Esta tag é para parágrafo-->
+         <ul> <!-- Esta tag representa uma lista de itens-->
+             <li><a href="#servicos">SERVIÇOS</li></a> <!--Esta tag representa um item da lista-->
+             <li><a href="#clientes">CLIENTES</li></a>
+             <li><a href="#parceiros">PARCEIROS</li></a>
+             <li><a href="#time">TIME</li></a>
+             <li><a href="#contato">CONTATO</li></a><!--A tag <a href> serve para criar um link
+            ou levar até uma parte do site usando o "#" seguida do nome que está o ID da sessão-->
+        </ul>   
+        </nav>
+
+        <header> <!--É o cabeçalho da página-->
+            <h1>Minha Página</h1> <!--Esta tag é para informar o tamanho da fonte de um titulo
+            por exemplo-->
+            <p>Oferecemos o desenvolvimento dos melhores sites e apps para sua empresa</p>
+        </header>
+
+        <section id="servicos"> <!--É para dividir os itens da lista em sessões dentro da página 
+            dando um "ID"-->
+            <h2>SERVIÇOS</h2>
+            <p>Oferecemos os melhores serviços em desenvolvimento de sites e apps</p>
+        <div> <!--A tag <div> serve para alterar o estilo em partes específicas da página e
+            posicionar objetos.-->
+            <img src="img/Desejo de Menina.jpg" class="img_padrao"> <!--IMG é usado para carregar 
+            uma imagem que está dentro de uma pasta "img" no arquivo do documento-->
+        </div>
+
+        </section>
+
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>Nossos clientes ficaram muito satisfeitos com nossos serviços</p>
+        <div>
+            <a href="https://www.vagalume.com.br/calcinha-preta/" target="_blank">
+            <img src="img/Calcinha Petra.jpg" class="img_padrao">
+            </a>
+             <!--A tag target="_blank" serve para abrir uma outra aba no navegador ao clicar no link-->
+             <!--para colocar um link em uma imagem basta colocar a tag <a href> antes da tag <img src>>-->
+        </div>
+        </section>
+
+        <section id="parceiros">
+            <h2>PARCEIROS</h2>
+            <p>Nossos parceiros nos ajudam a entregar as melhores soluções para nossos clientes</p>
+        <div>
+            <a href="https://www.letras.mus.br/rem/" target="_blank">
+            <img src="img/R.E.M.jpg" class="img_padrao">
+            </a>
+        </div>
+        </section>
+
+        <section id="time">
+            <h2>TIME</h2>
+            <p>Nosso Time trabalha sempre para oferecer o melhor para nossos clientes</p>
+        <div>
+            <img src="img/Avioes do Forro.jpg" class="img_padrao">
+        </div>
+        </section>
+
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato através de nossos canais de atendimento</p>
+        <div>
+            <img src="img/poprock.jpg" class="logo">
+        </div>
+        <p>O nosso email é: <a href="mailto:contato@meusite.com.br">contato@meusite.com.br</p></a>
+        <p>O nosso telefone é: <a href="tel:3199999999">(31) 9999-9999</p></a>
+        </section>
+
+        <footer> <!--É o rodapé da página-->
+            <p>Desenvolvido por Techfest</p>
+        </footer>
+    </body>
+   
+</html>
